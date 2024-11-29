@@ -1,8 +1,9 @@
-subsetOS is a Operating System whose goal is to provide a Ring 0 programming
-environment on UEFI x86_64 in 357 bytes or fewer. Every time one presses
-Enter, a single semicolon ending line of code gets incrementally recompiled.
-Whatever program was typed in can be run by typing "run" and pressing Enter.
-Currently, BOOTX64.EFI is 1,536 bytes large, but a PE32+ file header can be as
-small as 92 bytes and can be statically linked with the subsetOS object file to
-produce a 357 byte or fewer PE32+ UEFI Application. I'm not up for this task,
-but contributions are welcome, as long as they're also Public Domain.
+subsetOS is a Operating System whose goal is to provide a Ring 0 Compiler with
+inline assembly support that can be used with a serial port on UEFI x86_64 in
+357 bytes or fewer. Every time one presses Enter, a single semicolon ending
+line of code gets incrementally recompiled. Whatever program was typed in can
+be run by typing "run" and pressing Enter. Currently, BOOTX64.EFI exceeds that,
+but a PE32+ file header can be as small as 92 bytes and can be statically
+linked with the subsetOS object file to produce a 357 byte or fewer PE32+ UEFI
+Application. I'm not up for this task, but contributions are welcome, as long
+as they're also Public Domain.
